@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int MaxRowSum(int mat[][3] , int rows, int cols){
+int MaxRowSum(int mat[][3] , int rows, int cols){   //Max Rows sum
     int maxSum = __WINT_MIN__;
     for(int i=0; i<rows; i++){
         int currRowSum = 0;
@@ -13,7 +13,7 @@ int MaxRowSum(int mat[][3] , int rows, int cols){
     return maxSum;
 }
 
-int MaxColSum(int mat[][3] , int rows, int cols){
+int MaxColSum(int mat[][3] , int rows, int cols){   //Max columns sum
     int maxSum = __WINT_MIN__;
     for(int i=0; i<cols; i++){
         int currColSum = 0;
